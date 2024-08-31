@@ -1,0 +1,44 @@
+Call: (12) list_min([20, 9, 13, 14, 6, 8], _4160) ? creep
+Call: (13) list_min([9, 13, 14, 6, 8], _5560) ? creep
+Call: (14) list_min([13, 14, 6, 8], _6372) ? creep
+Call: (15) list_min([14, 6, 8], _7184) ? creep
+Call: (16) list_min([6, 8], _7996) ? creep
+Call: (17) list_min([8], _8808) ? creep
+Exit: (17) list_min([8], 8) ? creep
+Call: (17) min(6, 8, _7996) ? creep
+Call: (18) 6=<8 ? creep
+Exit: (18) 6=<8 ? creep
+Exit: (17) min(6, 8, 6) ? creep
+Exit: (16) list_min([6, 8], 6) ? creep
+Call: (16) min(14, 6, _7184) ? creep
+Call: (17) 14=<6 ? creep
+Fail: (17) 14=<6 ? creep
+Redo: (16) min(14, 6, _7184) ? creep
+Call: (17) 14>6 ? creep
+Exit: (17) 14>6 ? creep
+Exit: (16) min(14, 6, 6) ? creep
+Exit: (15) list_min([14, 6, 8], 6) ? creep
+Call: (15) min(13, 6, _6372) ? creep
+Call: (16) 13=<6 ? creep
+Fail: (16) 13=<6 ? creep
+Redo: (15) min(13, 6, _6372) ? creep
+Call: (16) 13>6 ? creep
+Exit: (16) 13>6 ? creep
+Exit: (15) min(13, 6, 6) ? creep
+Exit: (14) list_min([13, 14, 6, 8], 6) ? creep
+Call: (14) min(9, 6, _5560) ? creep
+Call: (15) 9=<6 ? creep
+Fail: (15) 9=<6 ? creep
+Redo: (14) min(9, 6, _5560) ? creep
+Call: (15) 9>6 ? creep
+Exit: (15) 9>6 ? creep
+Exit: (14) min(9, 6, 6) ? creep
+Exit: (13) list_min([9, 13, 14, 6, 8], 6) ? creep
+Call: (13) min(20, 6, _58) ? creep
+Call: (14) 20=<6 ? creep
+Fail: (14) 20=<6 ? creep
+Redo: (13) min(20, 6, _58) ? creep
+Call: (14) 20>6 ? creep
+Exit: (14) 20>6 ? creep
+Exit: (13) min(20, 6, 6) ? creep
+Exit: (12) list_min([20, 9, 13, 14, 6, 8], 6) ? creep

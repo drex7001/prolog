@@ -1,0 +1,556 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: PCE 6.4.0, September 2004
+%%CreationDate: (Sat Aug 31 08:16:24 2024)
+%%Pages: 1
+%%DocumentFonts: (atend)
+%%BoundingBox: 339 70 570 569
+%%Object: @24409727/picture
+%%EndComments
+
+/draw
+	{ 0 currentlinewidth ne
+	  { currentdash 0 eq exch [] eq and not
+	    { gsave nodash 1 setgray stroke grestore
+	    } if
+	    stroke
+	  } if
+	} def
+
+/pspen
+	{ 2 div
+	} def
+
+/pen
+	{ pspen
+	  setlinewidth
+	} def
+
+/circlepath
+	{ /r exch def
+	  /y exch def
+	  /x exch def
+	  /p exch def
+	  newpath
+	  x r add y r add r p pspen sub 0 360 arc
+	  
+	  p pen
+	} def
+
+/nodash
+	{ [] 0 setdash
+	} def
+
+/text
+	{ /s exch def
+	  /w exch def
+	  
+	  gsave
+	    1 eq { invert } if
+	    moveto s stringwidth pop w exch div -1 scale s show
+	  grestore
+	} def
+
+/linepath
+	{ /h exch def
+	  /w exch def
+	  newpath moveto w h rlineto
+	  pen
+	} def
+
+/boxpath
+	{ /r exch def
+	  /h exch def
+	  /w exch def
+	  /y exch def
+	  /x exch def
+	  /p exch def
+	  
+	  r 0 eq
+	  { 2 setlinecap newpath
+	    x p pspen add y p pspen add moveto
+	    w p sub 0 rlineto
+	    0 h p sub rlineto
+	    w p sub neg 0 rlineto
+	    0 h p sub neg rlineto
+	  }
+	  { newpath
+	    /pr r p pspen add def
+	    x pr add y p pspen add moveto
+	    x w add pr sub	y pr add	r 270 360 arc
+	    x w add pr sub	y h add pr sub	r 0 90 arc
+	    x pr add		y h add pr sub  r 90 180 arc
+	    x pr add		y pr add	r 180 270 arc
+	  } ifelse
+	  
+	  p pen
+	} def
+
+gsave
+
+570 70 translate 90 rotate
+0.59 -0.59 scale
+0 -392 translate
+%%EndProlog
+%%Page 0 1
+
+%%Object: @24409727/picture
+gsave 0 0 translate 0.00 0.00 0.00 setrgbcolor 
+
+%%Object: @24460433/circle
+gsave  nodash 0 0 5 5 circlepath
+draw grestore
+
+%%Object: @24460042/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 12 0 88 (1 p\(X, Y\):-) text
+15 28 0 120 (       q\(X, Y\).) text
+grestore
+
+%%Object: @24460670/circle
+gsave  nodash 0 0 37 5 circlepath
+draw grestore
+
+%%Object: @24460618/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 44 0 88 (2 p\(X, Y\):-) text
+15 60 0 120 (       q\(a, X\).) text
+grestore
+
+%%Object: @24460838/circle
+gsave  nodash 0 0 69 5 circlepath
+draw grestore
+
+%%Object: @24460786/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 76 0 80 (3 q\(a, a\).) text
+grestore
+
+%%Object: @24461024/circle
+gsave  nodash 0 0 85 5 circlepath
+draw grestore
+
+%%Object: @24460972/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 92 0 88 (4 q\(X, a\):-) text
+15 108 0 96 (       r\(Y\),) text
+15 124 0 72 (       !,) text
+15 140 0 120 (       s\(X, Y\).) text
+grestore
+
+%%Object: @24461198/circle
+gsave  nodash 0 0 149 5 circlepath
+draw grestore
+
+%%Object: @24461146/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 156 0 88 (5 q\(X, Y\):-) text
+15 172 0 96 (       r\(X\),) text
+15 188 0 120 (       p\(X, Y\).) text
+grestore
+
+%%Object: @24461416/circle
+gsave  nodash 0 0 197 5 circlepath
+draw grestore
+
+%%Object: @24461364/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 204 0 80 (6 s\(b, b\).) text
+grestore
+
+%%Object: @24461578/circle
+gsave  nodash 0 0 213 5 circlepath
+draw grestore
+
+%%Object: @24461526/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 220 0 88 (7 s\(b, X\):-) text
+15 236 0 96 (       r\(X\).) text
+grestore
+
+%%Object: @24461734/circle
+gsave  nodash 0 0 245 5 circlepath
+draw grestore
+
+%%Object: @24461682/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 252 0 56 (8 r\(b\).) text
+grestore
+
+%%Object: @24461882/circle
+gsave  nodash 0 0 261 5 circlepath
+draw grestore
+
+%%Object: @24461830/text
+gsave 0.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+15 268 0 56 (9 r\(a\).) text
+grestore
+
+%%Object: @24463978/line
+gsave 
+nodash 1 30 277 0 40 linepath draw
+
+%%Object: @24464009/arrow
+gsave  nodash 0 pen newpath 27 307 moveto 30 317 lineto 33 307 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24464062/line
+gsave 
+nodash 1 10 297 40 0 linepath draw
+
+%%Object: @24464093/arrow
+gsave  nodash 0 pen newpath 40 300 moveto 50 297 lineto 40 294 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24525569/circle
+gsave  nodash 1 20 287 10 circlepath
+gsave 0.00 1.00 0.00 setrgbcolor  fill grestore
+draw grestore
+
+%%Object: @24443166/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+445 12 0 80 (1\) p\(X, Y\)) text
+grestore
+
+%%Object: @24414855/box
+gsave 1.00 0.00 0.00 setrgbcolor  nodash 0 752 120 96 37 0 boxpath
+draw grestore
+
+%%Object: @24444690/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+256 72 0 80 (2\) q\(X, Y\)) text
+grestore
+
+%%Object: @24455986/connection
+gsave 
+nodash 1 485 16 -189 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 305 55 moveto 296 60 lineto 307 61 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24464618/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+326 34 0 128 (1 - {X1/X, Y1/Y}) text
+grestore
+
+%%Object: @24456148/text
+gsave 0.00 0.39 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+138 132 0 64 (3. \351xito) text
+130 148 0 80 ({X/a, Y/a}) text
+grestore
+
+%%Object: @24456246/connection
+gsave 
+nodash 1 296 76 -126 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 178 114 moveto 170 120 lineto 180 120 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24465341/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+177 110 0 112 (3 - {X/a, Y/a}) text
+grestore
+
+%%Object: @24456398/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+212 132 0 168 (4\) r\(Y2\), !, s\(X, Y2\)) text
+grestore
+
+%%Object: @24456503/connection
+gsave 
+nodash 1 296 76 0 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 293 110 moveto 296 120 lineto 299 110 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24465494/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+236 94 0 120 (4 - {X2/X, Y/a}) text
+grestore
+
+%%Object: @24456645/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+181 192 0 104 (5\) !, s\(X, b\)) text
+grestore
+
+%%Object: @24456736/connection
+gsave 
+nodash 1 296 136 -63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 239 171 moveto 233 180 lineto 243 177 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24465656/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+224 170 0 80 (8 - {Y2/b}) text
+grestore
+
+%%Object: @24456864/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+193 252 0 80 (6\) s\(X, b\)) text
+grestore
+
+%%Object: @24456948/connection
+gsave 
+nodash 1 233 196 0 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 230 230 moveto 233 240 lineto 236 230 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24465823/text
+gsave 0.73 0.33 0.83 setrgbcolor /Courier findfont 12 scalefont setfont
+221 214 0 24 (! 2) text
+grestore
+
+%%Object: @24457089/text
+gsave 0.00 0.39 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+138 312 0 64 (7. \351xito) text
+130 328 0 80 ({X/b, Y/a}) text
+grestore
+
+%%Object: @24457176/connection
+gsave 
+nodash 1 233 256 -63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 176 291 moveto 170 300 lineto 180 297 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24465936/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+165 290 0 72 (6 - {X/b}) text
+grestore
+
+%%Object: @24457292/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+268 312 0 56 (8\) r\(b\)) text
+grestore
+
+%%Object: @24457373/connection
+gsave 
+nodash 1 233 256 63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 286 297 moveto 296 300 lineto 290 291 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466104/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+204 274 0 120 (7 - {X/b, X5/b}) text
+grestore
+
+%%Object: @24457491/text
+gsave 0.00 0.39 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+264 372 0 64 (9. \351xito) text
+256 388 0 80 ({X/b, Y/a}) text
+grestore
+
+%%Object: @24457578/connection
+gsave 
+nodash 1 296 316 0 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 293 350 moveto 296 360 lineto 299 350 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466390/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+280 350 0 32 (8 - ) text
+grestore
+
+%%Object: @24457711/text
+gsave 0.00 0.55 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+327 192 0 64 (10\) Rama) text
+311 208 0 96 (podada cl\(9\)) text
+grestore
+
+%%Object: @24457802/connection
+gsave 
+nodash 1 296 136 63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 349 177 moveto 359 180 lineto 353 171 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466541/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+311 154 0 32 (#! 2) text
+grestore
+
+%%Object: @24457926/text
+gsave 0.00 0.55 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+390 132 0 64 (11\) Rama) text
+374 148 0 96 (podada cl\(5\)) text
+grestore
+
+%%Object: @24458010/connection
+gsave 
+nodash 1 296 76 126 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 412 120 moveto 422 120 lineto 414 114 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466658/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+343 110 0 32 (#! 2) text
+grestore
+
+%%Object: @24458118/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+630 72 0 88 (12\) q\(a, X\)) text
+grestore
+
+%%Object: @24458202/connection
+gsave 
+nodash 1 485 16 189 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 663 61 moveto 674 60 lineto 665 55 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466752/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+515 50 0 128 (2 - {X1/X, Y1/Y}) text
+grestore
+
+%%Object: @24458345/text
+gsave 0.00 0.39 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+512 132 0 72 (13. \351xito) text
+508 148 0 80 ({X/a, Y/Y}) text
+grestore
+
+%%Object: @24458429/connection
+gsave 
+nodash 1 674 76 -126 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 556 114 moveto 548 120 lineto 558 120 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24466917/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+575 94 0 72 (3 - {X/a}) text
+grestore
+
+%%Object: @24458553/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+586 132 0 176 (14\) r\(Y2\), !, s\(a, Y2\)) text
+grestore
+
+%%Object: @24458654/connection
+gsave 
+nodash 1 674 76 0 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 671 110 moveto 674 120 lineto 677 110 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24467070/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+614 110 0 120 (4 - {X2/a, X/a}) text
+grestore
+
+%%Object: @24458784/text
+gsave 0.00 0.00 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+555 192 0 112 (15\) !, s\(a, b\)) text
+grestore
+
+%%Object: @24458879/connection
+gsave 
+nodash 1 674 136 -63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 617 171 moveto 611 180 lineto 621 177 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24467232/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+602 154 0 80 (8 - {Y2/b}) text
+grestore
+
+%%Object: @24459001/text
+gsave 1.00 0.00 0.00 setrgbcolor /Courier findfont 12 scalefont setfont
+567 252 0 88 (16\) s\(a, b\)) text
+591 268 0 40 (fallo) text
+grestore
+
+%%Object: @24459088/connection
+gsave 
+nodash 1 611 196 0 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 608 230 moveto 611 240 lineto 614 230 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24467388/text
+gsave 0.73 0.33 0.83 setrgbcolor /Courier findfont 12 scalefont setfont
+595 230 0 32 (! 12) text
+grestore
+
+%%Object: @24459193/text
+gsave 0.00 0.55 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+705 192 0 64 (17\) Rama) text
+689 208 0 96 (podada cl\(9\)) text
+grestore
+
+%%Object: @24459309/connection
+gsave 
+nodash 1 674 136 63 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 727 177 moveto 737 180 lineto 731 171 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24467488/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+685 170 0 40 (#! 12) text
+grestore
+
+%%Object: @24459441/text
+gsave 0.00 0.55 0.55 setrgbcolor /Courier findfont 12 scalefont setfont
+768 132 0 64 (18\) Rama) text
+752 148 0 96 (podada cl\(5\)) text
+grestore
+
+%%Object: @24459525/connection
+gsave 
+nodash 1 674 76 126 44 linepath draw
+
+%%Object: @24447190/arrow
+gsave  nodash 0 pen newpath 790 120 moveto 800 120 lineto 792 114 lineto closepath gsave 0.00 setgray fill grestore
+ grestore
+grestore
+
+%%Object: @24467605/text
+gsave 0.72 0.53 0.04 setrgbcolor /Courier findfont 12 scalefont setfont
+717 94 0 40 (#! 12) text
+grestore
+grestore
+
+%%Trailer
+grestore
+%%DocumentFonts:
+showpage
